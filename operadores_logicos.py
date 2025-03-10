@@ -39,3 +39,16 @@ print("El resultado de operar con jerarquia de operadores es" ,y);
 #ejemplo 5: Operadores relacionales y logicos
 y= not 3 > 4 and 4 == 4 or 3 < 2
 print("El resultado de operaradores boleanos" ,y);
+
+#ejemplo 6: Operadores aritmeticos,
+#relacionales y logicos
+y = 3 + 5 * 2 > 3 and 4 == 4 or 3 < 2
+print("El resultado de operaradores aritmeticos, relacionales y logicos" ,y);
+
+#ejemplo 7: Con parentesis 
+y = (3 + 5) * (2 > 3) and 4 == 4 or not 3 < 2
+print("El resultado de operaradores aritmeticos, relacionales y logicos con parentesis" ,y);
+
+#ejemplo 8: Todo junto 
+y= 4 ** 2 * 3 < 6 / (7-5) and 7 * 2 + 1 == 14 or not 3 + 5 > 2
+print("El resultado de operaradores aritmeticos, relacionales y logicos con parentesis todos juntos" ,y);
