@@ -6,6 +6,14 @@ con valores booleanos(V F)
 Acorde a las tablas de verdad
 '''
 
-#Ejemplo 1:Operador not 
-y = True and True
+#Ejemplo 1:Operador not
+y = not True
+print("El resultado de operar con not es", y );
+
+#Ejemplo 2:Operador and
+y = False and True
 print("El resultado de operar con and es", y );
+
+#Ejemplo 1:Operador and
+y = False or True
+print("El resultado de operar con not es", y );
