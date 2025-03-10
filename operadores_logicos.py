@@ -35,3 +35,7 @@ Jerarquia de precedencia de operadores
 #ejemplo 4: Jerarquia de operadores
 y = False and not True or False
 print("El resultado de operar con jerarquia de operadores es" ,y);
+
+#ejemplo 5: Operadores relacionales y logicos
+y= not 3 > 4 and 4 == 4 or 3 < 2
+print("El resultado de operaradores boleanos" ,y);
